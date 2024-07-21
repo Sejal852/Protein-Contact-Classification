@@ -11,8 +11,6 @@ The repository is structured as follows, highlighting only pertinent files and d
       
 🗎 contact_net.py: main python script. run for inference or training, specifying arguments.
 🗎 model.py: python script containing the untrained model.
-🗎 calc-features.py: python script to compute the proteins features.
-🗎 configuration.json: JSON file containing configuration settings.
 🗎 contacts_classification_keras.ipynb: Jupyter notebook of ContactNet.
 
 ```
