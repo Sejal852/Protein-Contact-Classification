@@ -52,7 +52,7 @@ If python3 cannot locate these libraries, install them with: python3 -m pip inst
 
 
 
-# Operating the Software
+# Operating 
 The software provides the following capabilities:
 
 Perform instant predictions by loading the pretrained model.
