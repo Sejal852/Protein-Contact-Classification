@@ -1,6 +1,6 @@
 # ContactNet Software Documentation
+This project involves classifying contact information using a neural network implemented with Keras. The model takes input features related to contacts and classifies them into predefined categories.
 
-Authors: 
 
 ## Repository Overview and Files
 
