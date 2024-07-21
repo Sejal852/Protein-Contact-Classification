@@ -8,17 +8,6 @@ This project involves classifying contact information using a neural network imp
 The repository is structured as follows, highlighting only pertinent files and directories:
 
 ```
-↳ data: folder containing all data.
-        ↳ features_ring: folder containing all of the training data in .tsv format.
-                        🗎 *.tsv
-        ↳ output: output folder containing all output files of the software.
-
-        🗎 atchley.tsv: utility file to compute features.
-        🗎 ramachandran.dat: utility file to compute features.
-
-
-↳ model: folder containing the trained model, loaded at prediction time.
-        🗎 model.keras: keras model file.
       
 🗎 contact_net.py: main python script. run for inference or training, specifying arguments.
 🗎 model.py: python script containing the untrained model.
