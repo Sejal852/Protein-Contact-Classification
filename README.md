@@ -1,6 +1,19 @@
 # Protien Contact Classification
 This project involves classifying contact information using a neural network implemented with Keras. The model takes input features related to contacts and classifies them into predefined categories.
+# Project Context
 
+Residue Interaction Networks are derived from protein structures based on geometrical and physico-chemical properties of the amino acids. RING is a software that takes a PDB file as input and returns the list of contacts (residue-residue pairs) and their types in a protein structure. RING contact types include:
+
+- Hydrogen bonds (HBOND)
+- Van der Waals interactions (VDW)
+- Disulfide bridges (SBOND)
+- Salt bridges (IONIC)
+- π-π stacking (PIPISTACK) 
+- π-cation (PICATION)
+- π-pibond(PIHBOND)        
+- Unclassified contacts
+
+This project involves classifying contact information using a neural network implemented with Keras. The model takes input features related to contacts and classifies them into predefined categories.
 
 # Repository Overview and Files
 
