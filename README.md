@@ -16,8 +16,6 @@ The repository is structured as follows, highlighting only pertinent files and d
         🗎 atchley.tsv: utility file to compute features.
         🗎 ramachandran.dat: utility file to compute features.
 
-↳ docs: folder containing the software documentation.
-        🗎 documentation.md: software documentation.
 
 ↳ model: folder containing the trained model, loaded at prediction time.
         🗎 model.keras: keras model file.
