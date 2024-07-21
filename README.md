@@ -1,8 +1,8 @@
-# ContactNet Software Documentation
+# Protien Contact Classification
 This project involves classifying contact information using a neural network implemented with Keras. The model takes input features related to contacts and classifies them into predefined categories.
 
 
-## Repository Overview and Files
+# Repository Overview and Files
 
 
 The repository is structured as follows, highlighting only pertinent files and directories:
@@ -31,7 +31,7 @@ The repository is structured as follows, highlighting only pertinent files and d
 ```
 
 
-## Dependencies 
+# Dependencies 
 
 Assuming that Python 3.x is already installed, ensure the following dependent Python libraries are installed on your machine before running the software:
 
@@ -54,13 +54,13 @@ If python3 cannot locate these libraries, install them with: python3 -m pip inst
 
 
 
-## Operating the Software
+# Operating the Software
 The software provides the following capabilities:
 
 Perform instant predictions by loading the pretrained model.
 Conduct thorough retraining of the model.
 
-### Prediction Mode
+# Prediction Mode
 Requirements: PDB code of the target protein (referred to as your_pdb_id).
 To run the software by default, execute the following command in your terminal with arguments:
 
@@ -85,7 +85,7 @@ Finally, the software exports the final pdb_id_pred.csv file to the data/output/
 
 
 
-### Training Mode
+# Training Mode
 
 To initiate training of the model from scratch, execute the following command:
 
